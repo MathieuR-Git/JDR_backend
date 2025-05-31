@@ -15,7 +15,7 @@ Bienvenue dans l'API backend pour notre jeu de rôle ! Ce projet permet la gesti
 - Firebase
 - Git (optionnel)
 
-### 🚀 Démarrer le projet
+#### 🚀 Démarrer le projet
 1. Clone ce dépôt :
    ```bash
    git clone https://github.com/MathieuR-Git/JDR_backend.git
