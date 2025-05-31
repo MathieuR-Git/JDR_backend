@@ -32,20 +32,24 @@ FIREBASE_CREDENTIALS=chemin/vers/ton/fichier.json
 4. Lance le serveur :
 npm start
 
-#####📜 API Endpoints
-🔹 Utilisateurs
-Méthode	Endpoint	Description
-POST	/api/users/register	Inscription d'un utilisateur
-POST	/api/users/login	Connexion d'un utilisateur
-GET	/api/users/:id	Récupération du profil
-PUT	/api/users/:id	Mise à jour des infos (admin uniquement)
-DELETE	/api/users/:id	Suppression du compte (admin uniquement)
+## 📜 API Endpoints
 
-🔹 Scénarios
-Méthode	Endpoint	Description
-POST	/api/scenarios/pending	Ajout de scénarios en attente
-GET	/api/scenarios/pending	Récupération des scénarios
-DELETE	/api/scenarios/pending/:id	Suppression d'un scénario
+### 🔹 **Utilisateurs**
+| Méthode | Endpoint | Description |
+|---------|---------|-------------|
+| `POST` | `/api/users/register` | Inscription d'un utilisateur |
+| `POST` | `/api/users/login` | Connexion d'un utilisateur |
+| `GET`  | `/api/users/:id` | Récupération du profil |
+| `PUT`  | `/api/users/:id` | Mise à jour des infos (admin uniquement) |
+| `DELETE` | `/api/users/:id` | Suppression du compte (admin uniquement) |
+
+### 🔹 **Scénarios**
+| Méthode | Endpoint | Description |
+|---------|---------|-------------|
+| `POST` | `/api/scenarios/pending` | Ajout de scénarios en attente |
+| `GET`  | `/api/scenarios/pending` | Récupération des scénarios |
+| `DELETE` | `/api/scenarios/pending/:id` | Suppression d'un scénario |
+
 
 🎭 Classes et Stats
 Chaque joueur choisit une classe, avec :
