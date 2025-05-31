@@ -32,7 +32,7 @@ FIREBASE_CREDENTIALS=chemin/vers/ton/fichier.json
 4. Lance le serveur :
 npm start
 
-###📜 API Endpoints
+#####📜 API Endpoints
 🔹 Utilisateurs
 Méthode	Endpoint	Description
 POST	/api/users/register	Inscription d'un utilisateur
