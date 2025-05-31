@@ -51,22 +51,22 @@ npm start
 | `DELETE` | `/api/scenarios/pending/:id` | Suppression d'un scénario |
 
 
-🎭 Classes et Stats
+### 🎭 Classes et Stats
 Chaque joueur choisit une classe, avec :
 Stats variables (strength, agility, intelligence, luck).
 Bonus de classe influençant son style de jeu.
 Multiplicateurs (healthPoints, mana, etc.).
 Arme de départ adaptée à la classe.
 
-🔥 Technologies utilisées
+### 🔥 Technologies utilisées
 Node.js
 Express.js
 Firebase Firestore
 JWT (authentification)
 Bcrypt (hashing de mot de passe)
 
-🤝 Contribuer
+### 🤝 Contribuer
 Les contributions sont bienvenues ! Clone le repo, fais tes modifs et crée une pull request.
 
-📌 Contact
+### 📌 Contact
 Si tu as des questions ou besoin d'aide, ouvre une issue sur GitHub. 🎯
