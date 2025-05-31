@@ -1,0 +1,7 @@
+# Fichiers sensibles
+.env
+firebase.json
+
+# Ignorer les modules installés
+node_modules/
+package-lock.json
